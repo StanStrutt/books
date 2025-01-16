@@ -1,6 +1,8 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import Book from"./models/Book.js"
+import Book from "./models/Book.js"
+import Publisher from "./models/Publisher.js"
+import Author from "./models/Author.js"
 
 const app = express();
 app.use(express.json());
